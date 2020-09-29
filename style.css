@@ -8,6 +8,7 @@ h1 {
 h2 {
   color: blue;
   font-size: 30px;
+  list-style-type: lower-greek;
 }
 li {
   font-size: 20px;
@@ -18,4 +19,25 @@ ul li {
 ol li {
   color: grey;
   font-style: italic;
+}
+
+.belonging {
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.ul-3 {
+  list-style: square;
+}
+
+.ul-4 {
+  list-style-type: upper-roman;
+}
+
+.ul-1 {
+  list-style-type: circle;
+}
+
+.ul-2 {
+  list-style-type: lower-greek;
 }
